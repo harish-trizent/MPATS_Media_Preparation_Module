@@ -125,5 +125,24 @@
 </head>
 <body class="bg-gray-50 text-slate-900">
     <div id="root"></div>
+
+    <script type="module">
+        import React from 'react';
+        import { createRoot } from 'react-dom/client';
+
+        // This is a simple placeholder to test if it works. 
+        // You should replace this with your actual App component code!
+        function App() {
+            return (
+                <div class="p-10 text-center">
+                    <h1 class="text-4xl font-bold text-blue-600">MPATS System Live</h1>
+                    <p class="mt-4 text-gray-600">If you see this, your deployment worked!</p>
+                </div>
+            );
+        }
+
+        const root = createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
 </body>
 </html>
