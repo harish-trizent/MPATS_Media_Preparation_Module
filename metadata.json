@@ -1,0 +1,5 @@
+{
+  "name": "MPATS - Microbial Media Plates Tracking & Management System",
+  "description": "A comprehensive GMP-compliant laboratory management system for tracking microbial media preparation, sterilization, inventory, and lifecycle traceability.",
+  "requestFramePermissions": []
+}
